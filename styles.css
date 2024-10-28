@@ -18,7 +18,6 @@ body {
     background-color: black;
     display: flex;
     align-items: center;
-    position: fixed;
 }
 .info_bar_left {
     display: flex;
@@ -107,4 +106,41 @@ body {
 }
 .log_in {
     background-color: #444857;
+}
+.nav_bar {
+    width: 100%;
+    height: auto;
+    background-color: #484D53;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4a4e53;
+    padding: 15px 30px;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-left: 150px;
+}
+.menu {
+    display: flex;
+    gap: 20px;
+}
+.menu_item {
+    color: #919292;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.menu_item:hover {
+    color: white;
+}
+.menu_item.active {
+    color: white;
+}
+.menu a:last-child{
+    margin-right: 175px;
 }
