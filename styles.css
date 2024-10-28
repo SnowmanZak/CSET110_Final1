@@ -170,3 +170,27 @@ body {
 .gray_text p{
     margin-top: 10px;
 }
+.how_it_works{
+    margin-bottom: 50px;
+}
+.container{
+    text-align: center;
+    padding: 20px;
+}
+.container h2{
+    font-family: "Playfair Display", serif;
+    color: #F69314;
+    font-size: 50px;
+    font-weight: 500;
+}
+.container ion-icon{
+    color: #F69314;
+    font-size: 35px;
+}
+.flex{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 75px;
+    padding-right: 75px;
+}
