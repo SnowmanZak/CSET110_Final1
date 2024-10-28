@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", "Helvetica", "Sans-serif";
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #777;
+    line-height: 1.7;
+}
+.info_bar {
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+.info_bar_left {
+    display: flex;
+}
+.info_bar_left img {
+    width: 35px;
+    height: 35px;
+    margin-top: 7.5px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.click {
+    font-size: 13.5px;
+    color: #9B9D9D;
+    margin-right: 2px;
+    margin-top: 7.5px;
+    height: 50%;
+}
+.click:hover{
+    color: white;
+    cursor: pointer;
+}
+.follow {
+    padding: 5px 10px;
+    margin-right: 15px;
+    background-color: #47CF73;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
+    cursor: pointer;
+    align-self: center;
+    margin-top: -20px;
+}
+.follow:hover{
+    color: white;
+    background-color: #248C46;
+}
+.title {
+    font-size: 18px;
+    color: white;
+    height: 75%;
+    margin-top: 25px;
+    margin-left: -120px;
+}
+.info_bar_right {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    align-items: center;
+}
+.icon_button {
+    background-color: #444857;
+    border: none;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 23.5px;
+}
+.view_code, .sign_up, .log_in {
+    background-color: #444857;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: .5px;
+}
+.view_code:hover, .icon_button:hover, .log_in:hover{
+    background-color: #5A5F73;
+}
+.sign_up {
+    background-color: #47CF73;
+    color: black;
+}
+.sign_up:hover{
+    color: white;
+    background-color: #248C46;
+}
+.log_in {
+    background-color: #444857;
+}
