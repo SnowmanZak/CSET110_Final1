@@ -147,6 +147,52 @@
         </div>
     </section>
 
+    <section class="agents">
+        <div class="container_agent">
+            <h2>Agents</h2>
+            <p class="large-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.</p>
+
+            <div class="flex">
+                <div class="card">
+                    <img src="https://miro.medium.com/v2/resize:fit:1400/1*sMRzxqyo6BQD4CE5VPaEMg.jpeg" alt="Realtor 1" />
+                    <h3>Darth Vader</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUfQgVl_BoZPe8rrBEJuGX8TAYmRZAQdzcvw&s" alt="Realtor 1" />
+                    <h3>Homer Simpson</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://preview.redd.it/looking-for-pieces-for-my-ghost-cosplay-and-tips-on-how-to-v0-05tx4byglvmb1.png?auto=webp&s=58888630d2aada6db9a6cec23d268e25ea275fb5" alt="Realtor 1" />
+                    <h3>Ghost</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://charactersdb.com/wp-content/uploads/shrek-character-mini.jpg" alt="Realtor 1" />
+                    <h3>Shrek</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://platform.polygon.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/9632107/mario.jpg?quality=90&strip=all&crop=7.6470588235294,0,84.705882352941,100" alt="Realtor 1" />
+                    <h3>Mario</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG2A1WfO0dN2giiE4ggozrg00TrLaEf6kYZA&s" alt="Realtor 1" />
+                    <h3>Peter Griffin</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
@@ -214,24 +260,27 @@
            });
 
            $(document).scroll(() => {
-               let scrollTop = $(document).scrollTop();
+    let scrollTop = $(document).scrollTop();
 
-               if (scrollTop > 0) {
-                   navMenu.addClass('is-sticky');
-                   logo.css('color', '#000');
-                   headerElem.css('background', '#fff');
-                   navToggle.css('border-color', '#000');
-                   navToggle.find('.strip').css('background-color', '#000');
-               } else {
-                   navMenu.removeClass('is-sticky');
-                   logo.css('color', '#fff');
-                   headerElem.css('background', 'transparent');
-                   navToggle.css('border-color', '#fff');
-                   navToggle.find('.strip').css('background-color', '#fff');
-               }
+    if (scrollTop > 0) {
+        $('.info_bar').addClass('is-sticky');
+        $('.nav_bar').addClass('is-sticky'); // 
+        logo.css('color', '#000');
+        headerElem.css('background', '#fff');
+        navToggle.css('border-color', '#000');
+        navToggle.find('.strip').css('background-color', '#000');
+    } else {
+        $('.info_bar').removeClass('is-sticky');
+        $('.nav_bar').removeClass('is-sticky'); 
+        logo.css('color', '#fff');
+        headerElem.css('background', 'transparent');
+        navToggle.css('border-color', '#fff');
+        navToggle.find('.strip').css('background-color', '#fff');
+    }
 
-               headerElem.css(scrollTop >= 200 ? {'padding': '0.5rem', 'box-shadow': '0 -4px 10px 1px #999'} : {'padding': '1rem 0', 'box-shadow': 'none' });
-           });
+    headerElem.css(scrollTop >= 200 ? {'padding': '0.5rem', 'box-shadow': '0 -4px 10px 1px #999'} : {'padding': '1rem 0', 'box-shadow': 'none' });
+});
+
 
            $(document).trigger('scroll');
         });
