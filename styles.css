@@ -210,7 +210,7 @@ body {
     width: auto;
     height: 200px;
 }
-.rounded{
+.properties .rounded{
     margin-top: 20px;
     margin-left: 600px;
     background-color: #F69314;
@@ -277,4 +277,54 @@ body {
 }
 .agents{
     margin-bottom: 75px;
+}
+.flex_container_best {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    padding: 20px; 
+}
+.flex_container_best img {
+    max-width: 50%; 
+    height: auto; 
+    margin-right: 100px; 
+
+}
+.flex_container_best div {
+    flex: 1; 
+}
+.the_best h2{
+    font-family: "Playfair Display", serif;
+    color: #F69314;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 50px;
+    font-weight: bold;
+    max-width: 500px;
+}
+.the_best .rounded{
+    margin-top: 30px;
+    background-color: #F69314;
+    color: white;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.large_paragraph{
+    color: #777777;
+    font-size: 20px;
+    max-width: 400px;
+    margin: 20px;
+    margin-left: 0;
+}
+.small_paragraph{
+    margin-bottom: 10px;
+}
+.best_list li{
+    margin: 7.5px;
+    margin-left: 0;
 }
