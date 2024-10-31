@@ -219,8 +219,62 @@ body {
     cursor: pointer;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 65px;
-    padding-right: 65px;
+    padding-left: 75px;
+    padding-right: 75px;
     border-radius: 50px;
     border: none;
+}
+.properties{
+    margin-bottom: 50px;
+}
+.properties_slider{
+    margin: 50px;
+}
+.container_agent h2{
+    font-family: "Playfair Display", serif;
+    color: #F69314;
+    font-size: 50px;
+    font-weight: 500;
+    margin-left: 250px;
+}
+.container_agent p{
+    margin-left: 250px;
+    color: #777777;
+    font-size: 20px;
+    margin-bottom: 40px;
+    max-width: 550px;
+}
+.agents .flex {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    max-width: 1400px;
+    margin-left: 50px;
+}
+.card {
+    flex: 0 1 calc(50% - 10px);
+    margin-bottom: 20px;
+    box-sizing: border-box; 
+    background-color: #F0F0F0;
+    max-width: 350px;
+    max-height: 150px;
+}
+.card p{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.card h3{
+    font-family: "Playfair Display", serif;
+    color: black;
+    font-weight: 100;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.card img{
+    height: 50px;
+    width: auto;
+}
+.agents{
+    margin-bottom: 75px;
 }
