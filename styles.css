@@ -172,6 +172,7 @@ body {
 }
 .how_it_works{
     margin-bottom: 50px;
+    background-color: #F8F9FA;
 }
 .container{
     text-align: center;
@@ -187,10 +188,39 @@ body {
     color: #F69314;
     font-size: 35px;
 }
+.container h4{
+    color: black;
+    font-weight: lighter;
+}
 .flex{
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
-    padding-left: 75px;
-    padding-right: 75px;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.container_prop h2{
+    font-family: "Playfair Display", serif;
+    color: #F69314;
+    font-size: 50px;
+    font-weight: 500;
+    margin-left: 250px;
+}
+.properties img{
+    width: auto;
+    height: 200px;
+}
+.rounded{
+    margin-top: 20px;
+    margin-left: 600px;
+    background-color: #F69314;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 65px;
+    padding-right: 65px;
+    border-radius: 50px;
+    border: none;
 }
