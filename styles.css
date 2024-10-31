@@ -230,6 +230,26 @@ body {
 .properties_slider{
     margin: 50px;
 }
+.slider-controls {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    z-index: 10; 
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+.slick-arrow {
+    background-color: rgba(255, 255, 255, 0.7); 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px; 
+    text-decoration: none; 
+    color: #000; 
+}
+.slick-arrow:hover {
+    background-color: rgba(255, 255, 255, 1); 
+}
 .container_agent h2{
     font-family: "Playfair Display", serif;
     color: #F69314;
@@ -276,7 +296,8 @@ body {
     width: auto;
 }
 .agents{
-    margin-bottom: 75px;
+   padding-bottom: 75px;
+   border-bottom: #919292 solid 0.5px;
 }
 .flex_container_best {
     display: flex; 
@@ -292,6 +313,11 @@ body {
 }
 .flex_container_best div {
     flex: 1; 
+}
+.the_best{
+    border-top: #919292 solid 0.5px;
+    padding-top: 75px;
+    margin-bottom: 100px;
 }
 .the_best h2{
     font-family: "Playfair Display", serif;
@@ -327,4 +353,42 @@ body {
 .best_list li{
     margin: 7.5px;
     margin-left: 0;
+}
+.services {
+    margin-top: 100px;
+    background-color: #F8F9FA;
+    padding-bottom: 100px;
+    border-bottom: #919292 solid 0.5px;
+}
+.services a {
+    text-decoration: none;
+    color: #F69314;
+}
+.services a:hover {
+    text-decoration: underline;
+}
+.services .flex {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.service-item {
+    padding: 20px; 
+    text-align: left; 
+    max-width: 250px;
+    margin-left: 100px;
+}
+.service-content {
+    display: flex;
+    align-items: center; /
+}
+.service-content .icon {
+    margin-right: 10px; 
+    margin-left: -50px;
+}
+.service-item h3 {
+    margin: 10px 0; 
+}
+.service-item p {
+    margin-bottom: 15px;
 }
