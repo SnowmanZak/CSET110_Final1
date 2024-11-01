@@ -441,9 +441,10 @@ body {
     height: 50px; 
     margin-right: 10px;
 }
-#contact {
+.contact {
     padding: 50px 0;
     background-color: #f7f8fa; 
+    margin-bottom: 100px;
 }
 #contact h2 {
     font-family: "Playfair Display", serif;
@@ -511,4 +512,102 @@ body {
 }
 #address-container label {
     margin-top: 20px;
+}
+footer {
+    background-color: #333333; 
+    color: #d3d3d3; 
+    padding: 40px 0;
+    font-size: 14px;
+    text-align: center;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+footer h5 {
+    color: #ffffff; 
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+footer p, footer a {
+    color: #6E7777;;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.footer-about, .footer-quick-links, .footer-subscribe {
+    width: 30%;
+    min-width: 250px;
+}
+.footer-quick-links ul, .footer-subscribe ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-quick-links ul li {
+    margin: 5px 0;
+}
+.footer-quick-links ul li a:hover {
+    color: white; 
+    transition: 1s;
+}
+#subscribe-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+#subscribe-container input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    width: 70%;
+    font-size: 14px;
+    outline: none;
+    background-color: #333333;
+    border: gray solid 1px;
+}
+#subscribe-container button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f69314; 
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+}
+#subscribe-container button:hover {
+    background-color: white;
+    transition: 1s;
+}
+.follow-us {
+    margin-top: 20px;
+}
+.footer-subscribe ul {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-top: 10px;
+}
+.footer-subscribe ul li a {
+    font-size: 18px;
+    color: #666; 
+}
+.footer-subscribe ul li a:hover {
+    color: white; 
+    transition: 1s;
+}
+footer small {
+    display: block;
+    margin-top: 20px;
+    border-top: 0.5px solid #666;
+    padding-top: 10px;
+    color: #999999;
+    font-size: 12px;
+}
+footer small a {
+    color: gray; 
+}
+footer small a:hover {
+    color: white; 
 }
