@@ -441,3 +441,74 @@ body {
     height: 50px; 
     margin-right: 10px;
 }
+#contact {
+    padding: 50px 0;
+    background-color: #f7f8fa; 
+}
+#contact h2 {
+    font-family: "Playfair Display", serif;
+    color: #F69314;
+    font-size: 50px;
+    font-weight: 500;
+}
+#contact .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#form-container h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: left;
+}
+#form-container label,
+#address-container label {
+    display: flex;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #333;
+}
+#form-container input,
+#form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#form-container textarea {
+    height: 100px;
+    resize: vertical;
+}
+#form-container .rounded {
+    background-color: #f69314;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#form-container .rounded:hover {
+    background-color: #e3820f;
+}
+#address-container address,
+#address-container a {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-top: 5px;
+    text-decoration: none;
+}
+#address-container a {
+    color: #f69314;
+    margin-bottom: 10px;
+    text-align: left;
+}
+#address-container label {
+    margin-top: 20px;
+}
