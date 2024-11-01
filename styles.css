@@ -12,10 +12,14 @@ body {
     color: #777;
     line-height: 1.7;
 }
+.header{
+    overflow: visible;
+    height: auto;
+}
 .info_bar {
     position: sticky; 
     top: 0;        
-    height: 65px; 
+    height: 75px; 
     width: 100%;
     background-color: black;
     display: flex;
