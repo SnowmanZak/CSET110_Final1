@@ -466,19 +466,15 @@
         navToggle.css('border-color', '#fff');
         navToggle.find('.strip').css('background-color', '#fff');
     }
-
-    headerElem.css(scrollTop >= 200 ? {'padding': '0.5rem', 'box-shadow': '0 -4px 10px 1px #999'} : {'padding': '1rem 0', 'box-shadow': 'none' });
 });
-
-
            $(document).trigger('scroll');
         });
         window.addEventListener('scroll', function() {
-    const navBar = document.querySelector('.nav_bar'); // Select the nav_bar
-    if (window.scrollY > 0) { // Check if the page is scrolled
-        navBar.classList.add('scrolled'); // Add the scrolled class
+    const navBar = document.querySelector('.nav_bar');
+    if (window.scrollY > 0) { 
+        navBar.classList.add('scrolled'); 
     } else {
-        navBar.classList.remove('scrolled'); // Remove the scrolled class
+        navBar.classList.remove('scrolled');
     }
 });
     </script>
