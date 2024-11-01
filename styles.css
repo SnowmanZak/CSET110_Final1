@@ -392,3 +392,123 @@ body {
 .service-item p {
     margin-bottom: 15px;
 }
+.testimonials {
+    padding-top: 100px;
+    border-top: #919292 solid 0.5px;
+    background-color: white;
+    position: relative; 
+    padding-bottom: 100px;
+}
+.testimonials-wrapper {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+.testimonials .slick-arrow {
+    font-size: 24px; 
+    text-decoration: none; 
+    padding: 0 10px; 
+    margin: 70px;
+}
+#testimonials-slider {
+    flex-grow: 1;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+#testimonials-slider > div {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    max-width: 700px;
+}
+#testimonials-slider blockquote {
+    font-style: italic;
+    font-size: 20px;
+    text-align: center; 
+    margin: 0; 
+    margin-bottom: 20px;
+}
+.testimonials-caption {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+.testimonials-caption img {
+    border-radius: 50%; 
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px;
+}
+#contact {
+    padding: 50px 0;
+    background-color: #f7f8fa; 
+}
+#contact h2 {
+    font-family: "Playfair Display", serif;
+    color: #F69314;
+    font-size: 50px;
+    font-weight: 500;
+}
+#contact .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#form-container h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: left;
+}
+#form-container label,
+#address-container label {
+    display: flex;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #333;
+}
+#form-container input,
+#form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#form-container textarea {
+    height: 100px;
+    resize: vertical;
+}
+#form-container .rounded {
+    background-color: #f69314;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#form-container .rounded:hover {
+    background-color: #e3820f;
+}
+#address-container address,
+#address-container a {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-top: 5px;
+    text-decoration: none;
+}
+#address-container a {
+    color: #f69314;
+    margin-bottom: 10px;
+    text-align: left;
+}
+#address-container label {
+    margin-top: 20px;
+}
