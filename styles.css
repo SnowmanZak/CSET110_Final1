@@ -13,11 +13,17 @@ body {
     line-height: 1.7;
 }
 .info_bar {
-    height: 65px;
+    position: sticky; 
+    top: 0;        
+    height: 65px; 
     width: 100%;
     background-color: black;
     display: flex;
     align-items: center;
+    z-index: 10; 
+    margin: 0; 
+    padding: 0; 
+    line-height: 1; 
 }
 .info_bar_left {
     display: flex;
@@ -108,15 +114,35 @@ body {
     background-color: #444857;
 }
 .nav_bar {
+    position: sticky;
+    top: 65px;    
     width: 100%;
     height: auto;
-    background-color: #484D53;
+    background-color: #4a4e53;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #4a4e53;
     padding: 15px 30px;
     border-bottom: #5B5F65 solid .5px;
+    z-index: 9;
+    transition: background-color 0.3s ease;
+}
+.nav_bar.scrolled {
+    background-color: white;
+    transition: background-color 0.3s ease; 
+}
+.nav_bar a {
+    color: #919292; 
+    transition: color 0.3s ease; 
+}
+.nav_bar.scrolled a {
+    color: black; 
+}
+.nav_bar.scrolled a:hover{
+    color: #F69314;
+}
+.nav_bar.scrolled .menu_item.active {
+    color: #F69314; 
 }
 .logo {
     font-size: 30px;
@@ -611,3 +637,4 @@ footer small a {
 footer small a:hover {
     color: white; 
 }
+

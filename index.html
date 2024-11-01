@@ -382,7 +382,7 @@
             Copyright &copy; 2019 All rights reserved | This template is made with <span class="fa fa-heart"></span> by <a href="https://colorlib.com">Colorlib</a>
         </small>
     </footer>
-    
+
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script>
@@ -473,6 +473,14 @@
 
            $(document).trigger('scroll');
         });
+        window.addEventListener('scroll', function() {
+    const navBar = document.querySelector('.nav_bar'); // Select the nav_bar
+    if (window.scrollY > 0) { // Check if the page is scrolled
+        navBar.classList.add('scrolled'); // Add the scrolled class
+    } else {
+        navBar.classList.remove('scrolled'); // Remove the scrolled class
+    }
+});
     </script>
 </body>
 </html>
